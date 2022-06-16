@@ -1,0 +1,25 @@
+body
+{
+    background-color: rgb(23, 23, 24);
+}
+
+.cabecalho-fundo
+{
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.cabecalho
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.logo-cabecalho
+{
+    width: 10rem;
+    background-color: white;
+}

@@ -1,0 +1,536 @@
+:root
+{
+    --Vinho-escuro: #210124;
+    --Branco: #FFFFFF;
+    --Verde-muito-claro: #dbf9f0;
+    --vermelho: #750d37;
+    --Verde-Claro: #b3dec1;
+    --rosa-claro-palido: #97587d;
+
+    --texto-converse-direto: #EFD9CE;
+    --texto-quer-melhorar: #85c399;
+}
+
+
+
+
+
+body 
+{
+    background-color: var(--Vinho-escuro);
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Branco);
+    background-size: 300px;
+}
+
+.fundodomeio
+{
+    background-color: var(--Verde-muito-claro)
+}
+.cabecalho1 
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;  
+    padding-bottom: 10px;
+    background-color: var(--Vinho-escuro);
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* CONTAINER LOGO MENU */
+.cabecalho1 img
+{
+   width: 50%;
+}
+
+/* CONTAINTER BOTÕES MENU */
+.cabecalho2
+{
+    
+    display: flex;
+    padding: 20px 0;
+    background-color: var(--Vinho-escuro);
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+/* BOTÕES MENU INDIVIDUAIS */
+.cabecalho2 li
+{
+    
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline;
+    color: var(--Branco);
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    padding: 5px;
+
+}
+
+
+
+
+
+.caixa1
+{
+    display: flex;
+    background-color: var(--vermelho) ;
+    background-position: center top;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 190px;
+    padding-bottom: 0px ;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.4);
+
+
+}
+
+
+
+.caixa1 .titulo
+{
+    
+    width: 311px;
+    font-size: 30px;
+    padding-top: 90px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+   
+    
+}
+
+.caixa1 .subtexto
+{
+    font-size: 13px;
+    text-align: center;   
+    padding: 10px 35px 10px 35px;
+}
+
+.botao1
+{
+    display: flex;
+    background-color: var(--Verde-Claro);
+    position:relative;
+    width: 90%;
+    top: 30px;
+    justify-content: center;
+    align-items: center;  
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.seta
+{
+   width: 28%;   
+}
+
+
+
+.venha-me
+{
+    position: relative;
+    font-size: 28px;
+    color: var(--Vinho-escuro);
+    top: -33px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+
+.caixa2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    
+}
+
+.caixa2 .video
+{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 30px;
+    padding-top: 90px;
+}
+
+.imagem-mulher
+{
+    width: 0px;
+}
+
+
+
+.caixa3
+{
+    width: 90%;
+    background-color: var(--vermelho);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+    margin: 35px 20px 60px 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+    
+
+}
+
+.caixa4
+{
+    width: 90%;
+    background-color: var(--Verde-Claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    margin: 35px 20px 60px 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+    
+
+}
+
+
+.tem-interesse
+{
+    font-size: 14px;
+    color: var(--rosa-claro-palido);
+    padding-bottom: 5px;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.converse-direto
+{
+    font-size: 18px;
+    text-align: center;
+    color: var(--texto-converse-direto);
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+
+.quer-melhorar
+{
+    font-size: 14px;
+    width: 130px;
+    text-align: center;
+    color: var(--texto-quer-melhorar);
+    padding-bottom: 5px;
+    padding-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.vamos-trabalhar
+{
+    font-size: 18px;
+    text-align: center;
+    color: var(--Vinho-escuro);
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+
+.wpp
+{
+    width: 6%; 
+}
+
+
+
+
+footer
+{
+    background-color: var(--Vinho-escuro);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.lista-rodape li
+{
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+}
+
+.lista-rodape
+{ 
+    padding: 20px;
+    padding: 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.wpp-logo, .insta-logo, .face-logo, .email-logo
+{
+    width: 100%;
+}
+
+
+.caixarodape2
+{
+    display: flex;
+    align-items: center;
+    flex-direction:column-reverse ;
+    padding-top: 20px;
+}
+
+.logo-rodape
+{
+    
+    width: 30%
+}
+
+@media (min-width: 1000px)
+{   
+    .imagem-mulher
+    {
+        width: 270px;
+        position: absolute;
+        top: 200px;
+        right: 0px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 550px) and (min-height: 350px)
+{
+    .cabecalho1 img
+    {
+        width: 15%;
+    }
+
+    .cabecalho1
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+
+    .cabecalho2 li
+    {
+        transition: 0.7s;
+    }
+
+    .cabecalho2 li:hover
+    {
+    
+        font-size: 20px;
+        
+    }
+
+    .atras-caixa-1
+    {
+        width: 100%;
+    }
+
+    .caixa1 .titulo
+    {
+    
+        width: 400px;
+        font-size: 40px;
+        padding-top: 90px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+     
+    }
+
+    .caixa1 .subtexto
+    {
+        font-size: 13px;
+        text-align: center;   
+        padding: 10px 35px 10px 35px;
+    }
+
+
+    .caixa1
+    {
+        width: 500px;
+        align-items: center;
+        box-shadow: 0px 0px 0px;
+        
+    }
+
+    .botao1
+    {
+        width: 206%;
+        top: 30px;
+        height: 100px;
+    }
+
+    .venha-me:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+ 
+
+    .seta
+    {
+        width: 8.9%;   
+    }
+
+    .atras-caixa-1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: var(--vermelho);
+    }
+
+    .caixa2 .video
+    {
+    width: 60%;
+    height: 500px;
+    padding-bottom: 30px;
+    padding-top: 90px;
+    }
+
+    
+
+
+   
+    
+
+    .flex-caixa-3, .flex-caixa-4
+    {
+       display: flex; 
+       align-items: center;
+       justify-content: center;
+    }
+
+    .tem-interesse
+    {
+        font-size: 20px;
+        transition: 0.7s;
+    }
+
+    .tem-interesse:hover
+    {
+        color: var(--Branco);
+        cursor:default;
+        
+
+    }
+
+    .converse-direto
+    {
+        font-size: 34px;
+    }
+
+    .converse-direto:hover
+    {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .quer-melhorar
+    {
+        font-size: 20px;
+        width: 250px;
+        transition: 0.7s;
+    }
+
+    .quer-melhorar:hover
+    {
+        color: var(--Vinho-escuro);
+        cursor:default;
+        
+    }
+
+    .vamos-trabalhar
+    {
+        font-size: 34px;
+    }
+
+    .vamos-trabalhar:hover
+    {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+
+
+    .caixa3, .caixa4
+    {   
+       width: 60%;
+       transition: 0.3s;
+    }
+
+    .caixa3:hover, .caixa4:hover
+    {
+        
+    }
+
+    .wpp
+    {
+        width: 3%;
+    }
+
+    .lista-rodape li:not(.face-logo)
+    {
+        width: 23px;
+        height: 23px;
+        display: inline-block;
+        padding-left: 25px;
+        padding-right: 25px;
+           
+    }
+
+    
+
+    .wpp-logo, .insta-logo, .face-logo, .email-logo
+    {
+        transition: 1s;
+        width: 130%;
+        
+    }
+
+    .wpp-logo:hover, .insta-logo:hover, .face-logo:hover, .email-logo:hover
+    {
+        width: 180%;
+    }
+
+
+    .lista-rodape
+{ 
+   
+    padding: 30px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.logo-rodape
+{
+    width: 10%;
+    padding-bottom: 30px;
+}
+
+
+
+
+}
+
